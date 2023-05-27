@@ -1,2 +1,4 @@
 # personalwebsite
-This project is to show a little bit about myself and the work that I have completed.
+This personal website highlights my skiils, previous works, and projects.
+I built this site using Html, CSS, and JavaScript.
+This site feattures an about me section and a portfolio section.
