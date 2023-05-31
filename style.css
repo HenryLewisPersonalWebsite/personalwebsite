@@ -52,3 +52,18 @@ body {
 .nav-item a:hover {
   background-color: rgb(143, 10, 134);
 }
+img {
+    width: 400px;
+    border: rgb(143, 10, 134) solid 20px;
+    border-radius: 30px;
+    
+    
+}
+img:hover{
+    content: url(The\ BIg\ Lebowski.jpg);
+}
+@media (min-width:768px) {
+    html,body {
+        flex-direction: row;
+    }
+}
