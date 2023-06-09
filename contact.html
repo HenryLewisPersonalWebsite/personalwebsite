@@ -17,16 +17,24 @@
         <li class="nav-item"><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
-    <form action="formsubmitted.html" method="get">
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" /> <br />
-      <label for="email">E-mail</label>
-      <input type="email" id="email" name="email" /> <br />
-   
-      <label for="message">Message:</label> <br>
-      <textarea id ="message" name="message"></textarea>
-      <br>
-      <input type="submit" value="Submit" /> 
-    </form>
+    
+    
+      <form action="formsubmitted.html" method="get">
+        <div class="formwhole">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" /> 
+      </div>
+      <div class="formwhole">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" /> 
+      </div>
+      <div class="formwhole">
+        <label for="message">Message</label> 
+        <textarea id="message" name="message"></textarea>
+      </div>
+
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
   </body>
 </html>

@@ -72,19 +72,31 @@ img {
 img:hover {
   content: url(Hockey\ Photo.jpg);
 }
+
+.formwhole {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px
+}
+input, textarea {
+  flex: 3;
+ 
+}
 label {
-  display: flex;
+  flex: 1;
+  margin-right: 10px;
+  border: 3px solid rgb(143,10,134);
+  background-color: rgb(143,10,134);
+  border-radius: 20px;
+  padding-left: 50px;
+  ;
 }
-input {
-  display: flex;
-  
-}
-textarea {
-  display: flex;
-}
+
+
 @media (min-width: 768px) {
   html,
   body {
-    flex-direction: row;
+    color: aliceblue;
+  
   }
 }
